@@ -28,6 +28,14 @@ public class Main {
         Sort_Algorithms.countingSort(intArray, 1, 9);
         Sort_Algorithms.showArray(intArray);
 
+        System.out.println("\n===Linear Search===");
+        System.out.println(Search_Algorithms.linearSearch(intArray, 5));
+
+        System.out.println("===Binary Search===");
+        int[] sortedIntArray = {5, 8, 10, 11, 15 ,20, 25};
+        System.out.println(Search_Algorithms.iterativeBinarySearch(sortedIntArray,20));
+        System.out.println(Search_Algorithms.recursiveBinarySearch(sortedIntArray,5));
+
     }
 
 }
