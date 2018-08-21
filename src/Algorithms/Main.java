@@ -1,3 +1,8 @@
+package Algorithms;
+
+import Algorithms.Search_Algorithms;
+import Algorithms.Sort_Algorithms;
+
 public class Main {
 
     public static void main(String[] args) {
